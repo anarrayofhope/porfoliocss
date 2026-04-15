@@ -1,0 +1,183 @@
+body
+{
+     background-color: #6f87a3;
+}
+.main
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: linear-gradient(120deg, #0f172a, #1e3a8a, #4c1d95);
+    height: 115vh;
+    border-radius: 25px;
+}
+.logoimg
+{
+    margin-top: 25px;
+    margin-left:10px;
+     height:90px ;
+     width:160px;
+}
+.headerpara
+{
+   
+   margin-left: -40px;
+   margin-top: 10px;
+    color: aliceblue;
+    font-size: 45px;
+    font-weight: 600;
+     font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar
+{
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.items
+{
+     font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+   font-size: 40px;
+   color: aliceblue;
+   background: transparent;
+   margin: 10px;
+   
+   border:0px;
+}
+.heroheadmat
+{
+    color: #3B82F6;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style:normal;
+}
+.herohead
+{
+    color:white;
+     font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 55px;
+}
+.heropara
+{
+    color: #3B82F6;
+     font-size: 25px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style:normal;
+}
+.heroparatwo
+{
+     color: rgba(255, 255, 255, 0.7);
+     font-size: 20px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style:normal;
+  line-height: 1.7;
+}
+.button2
+{
+    height: 80px;
+    width: 210px;
+    border-radius: 25px;
+    font-size: 30px;
+    background: linear-gradient(90deg, #3B82F6, #6366F1);
+    color: #ffffff;
+font-size: 30px;
+font-weight: 500;
+   font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+.button3
+{
+     height: 80px;
+    width: 240px;
+    border-radius: 25px;
+    font-size: 30px;
+    background:transparent;
+    border: 5px solid #ffffff;
+    color:#ffffff ;
+font-size: 30px;
+font-weight: 500;
+   font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+.secondmain
+{
+    width: 1500px;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+.myimage
+{
+    height: 780px;
+    width: 550px;
+}
+@media (max-width :600px)
+{
+    .main
+    {
+        width: 90%;
+        height: 260vh;
+        margin-bottom: -1000px;
+    }
+    .navbar
+    {
+        margin-left: 140px;
+        text-align: center;
+    }
+    .items
+    {
+        font-size: 25px;
+    }
+    .aboutitem
+    {
+        margin-left: 10px;
+    }
+    .myimage
+    {
+        height: 500px;
+        width: 300px;
+    }
+    .secondmain
+    {
+        margin-left: -5px;
+    }
+    .heroheadmat
+    {
+        margin-left: 10px;
+    }
+    .herohead
+    {
+        text-align: center;
+        width: 200px;
+        margin-left: 50px;
+    }
+    .heropara
+    {
+        width: 300px;
+        text-align: center;
+    }
+    .heroparatwo
+    {
+        width: 300px;
+        text-align: center;
+    }
+    .button2
+    {
+        margin-left: 50px;
+    }
+    .button3
+    {
+        margin-left: 35px;
+    }
+}
